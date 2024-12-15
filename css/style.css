@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a,a :hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+/* All Common CSS End */
+
+
+/* Header part start */
+ .navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+} 
+.contact{
+    padding: 10px 20px;
+    background: #ffff;
+    margin-left: 10px;
+    color: black;
+}
+.navbar{
+    color: #ffff; 
+    font-weight: 600;
+    font-size: 20px;
+}
+.navbar a {
+    color: #ffff;
+}
+
+
+
+/* Header part End*/
+
+/* Banner part Start */
+ #bannerpart{
+    background-color: #30344E;
+    padding-top: 100px;
+    padding-bottom: 50px;
+} 
+
+.button{
+    padding: 10px 20px;
+    background: #FD5F36;
+    color: #ffff;
+    display: inline-block;
+    margin-bottom: 50px;
+    
+}
+.bannerparthead{
+    align-items: center;
+}
+.bannerText{
+    color: #ffff;
+    margin-top: 50px;
+}
+.bannerText h2{
+    color: #ffff;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bannerText p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.bannerText h5{
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.bannerFlex{
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.image1{
+    
+    margin-top: 50px;
+}
+.image3 img{
+    width: 100%;
+}
+.image3{
+    background: #FD5F36;
+}
+/* Banner part End */
+
+
+
+
+/* About Part STart  */
+.Aboutpart{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.About{
+    align-items: center;
+}
+.aboutext h6{
+color: #FD5F36;
+font-size: 15px;
+font-weight: 600;
+margin-top: 30px;
+}
+.aboutext h3{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;  
+    margin-top: 30px; 
+}
+.aboutext p{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 15px;
+    margin-top: 30px;   
+}
+.pFlex{
+    gap: 15px;
+    text-align: center;
+    mar
+}
+.button{
+    padding: 10px 20px;
+    background: #FD5F36;
+    color: aliceblue;
+}
+/* About Part End */
+
+
+/* Service Part Start */
+
+#servicePart{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.servicetext{
+    justify-content: space-between;
+    display: flex;
+    
+} 
+.serviceItem{
+    padding: 30px 20px;
+}
+.serviceItem img{
+   margin-bottom: 40px;
+}
+
+.serviceItem h5{
+    margin-top: 20px;
+    color: black;
+    font-size: 35px;
+    font-weight: 700;  
+ }
+ .serviceItem p{
+    margin-top: 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+ }
+ .servicetext h3{
+   margin-bottom: 30px;
+ }
+ .servicetextflex{
+ display: flex;
+ justify-content: space-between;
+ }
+  
+/* service Part End  */
+
+
+
+/* BRS Section Start */
+
+#BRSpart{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.button{
+    padding: 10px 20px;
+    background: #FD5F36;
+    color: #ffff;
+}
+.BRSFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.toptext h3{
+    color: black;
+    font-size: 48px;
+    font-weight: 600;   
+}
+.toptext p{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;   
+}
+.BRSTextLeft h6{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;  
+}
+.BRSTextRight h6{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;  
+}
+.col-lg-5 img{
+    width: 100%;
+}
+/* BRS Section End */
+
+/* Expart Part Start */
+
+#Expartpart{
+    padding-top: 70px;
+    padding-bottom: 200px;
+    background: #353A55;
+   
+}
+.Expartpartoptext h6{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;  
+}
+.Expartpartoptext h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 700; 
+}
+.xpartIteam img{
+    width: 100%;
+}
+
+.Leftpart{ 
+    padding: 15px 15px;
+    background-color: #52C5B6;
+    border-radius: 10px;
+}
+.xpartIteam{
+    
+    position: relative;
+}
+.Leftpart{
+    position: absolute;
+    bottom: -180px; 
+    left: 0;
+}
+.circle{
+    padding: 15px;
+    border-radius: 100%;
+    background-color: #ffff;
+    position: absolute;
+    bottom: -130px;
+    right: 20px;
+}.Expartpartoptext{
+    position: relative;
+}
+.xpartIteam img{
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+}
+.Leftpart p{
+position: relative;
+}
+    
+.Leftpart p ::before{
+    height: px;
+    width: 5px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+
+}
+   
+
+
+
+
+/* Expart Part End*/
+
+
+/* Digital Part Start */
+ #digitalPart{
+    padding-top: 200px;
+    padding-bottom: 50px;
+ }
+ .div1{
+    padding: 10px 50px 10px 10px;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+ }
+ .div1 h6{
+    font-size: 20px;
+    font-weight: 400;
+    color: #5B5F77;
+ }
+ .div2{
+    padding: 10px 50px 10px 10px;
+    background: #52C5B6;
+    border: 1px solid black;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+ }
+ 
+ .div2 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #5B5F77; 
+    
+ }
+ .div3{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid black;
+ }
+ .div4{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+ }
+ .div3 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #5B5F77;
+ }
+ .div4 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #5B5F77;
+ }
+ .div4{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+ }
+ .div5{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+ }
+ .div5 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #5B5F77;
+ }
+ .imageRight2{
+    width: 100%;
+ }
+ .imageRight{
+    width: 100%;
+ }
+ .imageLeft{
+    width: 100%;
+ }
+ .pTag{
+    padding: 10px 20px;
+    background: #52C5B6;
+    border-radius: 10px;
+ }
+ 
+ 
+ 
+
+
+
+
+
+
+ /* Digital Part End */
+ /* Facts Section Start */
+  #FactsPart{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #52C5B6;
+  }
+.col-lg-2 h6{
+    font-size: 30px;
+    font-weight: 600;
+}
+.col-lg-2 p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.col-lg-2 h4{
+    font-size: 30px;
+    font-weight: 700;
+}
+.button{
+    margin-top: 30px;
+}
+/* Facts Section End*/
+
+/* review Part Strat */
+#reviewpart{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+
+}
+.Row{
+    background: rgb(204, 181, 159);
+    display: flex;
+    justify-content: space-between;
+}
+.div12Flex{
+    display: flex;
+    gap: 15px;
+}
+.headerpart h3{
+    margin-bottom: 40px;
+}
+.imageRight1{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* review Part End */
+
+/* Update Part Start */
+.tophead h6{
+color: #FD5F36;
+font-size: 20px;
+font-weight: 600;
+}
+.tophead p{
+    
+    font-size: 15px;
+    font-weight: 400;
+    }
+.updatePartItemLFlex{
+    display: flex;
+    gap: 15px;
+}
+
+    
+.updatePartItemRFlex{
+    display: flex;
+    gap: 15px;
+   
+}
+.totalFlex{
+    justify-content: space-between;
+}
+.updatePartItem h6{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;      
+}
+.updatePartItem p{
+    color: black;
+    font-size: 10px;
+    font-weight: 400;      
+}
+.tophead h4{
+    margin-bottom: 25px;
+}
+.tophead h6{
+    margin-bottom: 15px;
+}
+.updatePartItem img{
+    width: 100%;
+} 
+/* Update Part End*/
+
+/* Inovate Part Start */
+
+#Inovatepart{
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #353A55;
+
+}
+span{
+    padding: 10px  20px;
+    color: #ffff;
+    background-color: #FD5F36;
+}
+hr{
+    color: #ffff;
+}
+p{
+    color: #ffff; 
+    font-size: 10px; 
+    font-weight: 400;
+}
+h6{
+    color: #ffff; 
+    font-size: 20px; 
+    font-weight: 600;  
+}
+
+/* Inovate Part End */
+
+
+
